@@ -493,7 +493,7 @@ nav > h2:hover {
   font-weight: 100;
 }
 
-#main-page6 #cursor2 {
+#cursor2 {
   height: 7vw;
   width: 7vw;
   background: black;
@@ -733,6 +733,9 @@ nav > h2:hover {
   }
 
   #cursor {
+    display: none;
+  }
+  #cursor2{
     display: none;
   }
 
