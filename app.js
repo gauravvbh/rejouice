@@ -235,21 +235,24 @@ function page5Animation() {
 }
 page5Animation()
 
+
+var mainPg6=document.querySelector('#main-page6')
+
 function page6Animation(){
-  contentPg2.addEventListener("mousemove", (res) => {
+  mainPg6.addEventListener("mousemove", (res) => {
     gsap.to(cursor2, {
       x: res.x,
       y: res.y,
-      duration: 0.1
+      duration: 0.3
     })
   })
-  contentPg2.addEventListener("mouseenter", () => {
+  mainPg6.addEventListener("mouseenter", () => {
     gsap.to(cursor2, {
       scale: 1,
       opacity: 1
     })
   })
-  contentPg2.addEventListener("mouseleave", () => {
+  mainPg6.addEventListener("mouseleave", () => {
     gsap.to(cursor2, {
       scale: 0,
       opacity: 0
