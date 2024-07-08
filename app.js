@@ -137,11 +137,11 @@ function cursorAnimation() {
 cursorAnimation()
 
 function topPageAnimation() {
-  gsap.from("#part2 h1 span", {
+  tl.from("#part2 h1 span", {
     y: 100,
     stagger: .2,
     duration: 0.5,
-    delay: -0.1,
+    delay: -1.2,
     opacity: 0
   })
 }
